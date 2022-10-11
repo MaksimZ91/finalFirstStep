@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-string[] asd (int count, string[] arr)
+string[] newArray (int count, string[] arr)
 {
   string [] array = new string[count];
   int i = 0;
@@ -30,4 +30,4 @@ for (int i = 0; i < array.Length; i++)
   count++;
 }
 Console.WriteLine("Исходный массив: [ " + string.Join(", ", array) + " ]");
-Console.WriteLine("Результат: [ " + string.Join(", ", asd(count, array)) + " ]");
+Console.WriteLine("Результат: [ " + string.Join(", ", newArray(count, array)) + " ]");
