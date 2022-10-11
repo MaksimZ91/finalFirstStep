@@ -4,8 +4,6 @@ string[] newArray (int count, string[] arr)
 {
   string [] array = new string[count];
   int i = 0;
-  while (i < count)
-  {
     for (int j = 0; j <= arr.Length-1; j++)
     {
       if(arr[j].Length <= 3)
@@ -13,8 +11,7 @@ string[] newArray (int count, string[] arr)
         array[i] = arr[j];
         i++;
       }      
-    }    
-  } 
+    } 
   return array;
 }
 
